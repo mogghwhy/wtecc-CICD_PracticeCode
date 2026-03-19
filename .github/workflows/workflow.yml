@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     container: python:3.9-slim
     steps:
-      - name: checkout
+      - name: Checkout
         uses: actions/checkout@v5
